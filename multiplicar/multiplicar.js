@@ -1,8 +1,8 @@
-const fs = require('fs');
+const fs = require('fs'); // constante donde guardamos libreria file
 const colors = require('colors');
 
 let listarTabla = (base, limite = 10) => {
-    console.log('========================'.red);
+    console.log('========================'.blue);
     console.log(`=======Tabla de ${base}=======`.yellow);
     console.log('========================'.blue);
     for (let i = 1; i <= limite; i++) {
